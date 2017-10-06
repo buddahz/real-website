@@ -1,4 +1,4 @@
-title: Green Projectsss
+title: Green Package
 url: "https://teal-worm.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -16,7 +16,7 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Green Projects
+  name: Green Package
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
