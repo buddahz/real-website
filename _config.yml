@@ -16,6 +16,7 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
+  name: Green Project
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
