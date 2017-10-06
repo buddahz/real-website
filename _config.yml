@@ -15,7 +15,7 @@ author:
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
-social: asas
+social: 
   name: 
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
