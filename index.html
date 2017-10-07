@@ -7,7 +7,37 @@ title: AMS Project
 	    <div id="justify">
              <h2 class="editable">The Problem....</h2>
 	    	 <p class="editable">Increasingly, in today's society, we are becoming accustomed to the comforts of the modern world. Ordering pizza over the phone or shopping online is already part of the everyday life of 21st Century Man. But then why not extend this concept to everything else? From the small family restaurant that does not have its own delivery service to the friend who forgot the wallet at home, everyone has something in common ... the lack of a small freight transport network that is simple, convenient and affordable to all. The service options provided by any parcel carrier currently on the market do not provide a solution for deliveries from point A to point B, without the customer having to travel to a branch and waiting days for their order to reach the recipient after walking around the city in the box of a minivan. What if there was a solution where the customer would just have to move to his door, wait minutes and still not contribute to the emission of greenhouse gases?</p>
-        </div>
+	    	 <div class="w3-content w3-display-container">
+  <img class="mySlides" src="img_fjords.jpg" style="width:100%">
+  <img class="mySlides" src="img_lights.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+        
+        
 	
 	<!--	<p class="subtext editable">This is the <strong>Urban</strong> template from <a href="http://cloudcannon.com/">CloudCannon</a>. Urban is a strong foundation for the web presence of your agency.</p>
 		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
