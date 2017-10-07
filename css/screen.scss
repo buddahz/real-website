@@ -16,6 +16,10 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
+ .mySlides {
+            border-radius: 15px;
+            }
+
 @import "elements";
 @import "layout";
 @import "contact";
