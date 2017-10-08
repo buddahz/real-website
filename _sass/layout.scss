@@ -13,10 +13,7 @@
 	max-width: 1000px;
 }
 
-.container2{
-    
-    max-width: -500px;
-}
+
 
 header {
 	color: #fff;
@@ -103,6 +100,10 @@ section {
 			font-size: 3rem;
 			margin-top: 100px;
 		}
+		
+		h6, p{
+		    margin-top: -1675px;
+		}
 
 		p {
 		    text-align: justify;
@@ -120,6 +121,8 @@ section {
 	&.alternate {
 		background: #eee;
 	}
+	
+	
 }
 
 .button {
