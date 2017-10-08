@@ -1,6 +1,6 @@
 ---
-name: James Lopez
-position: Designer
+name: Xavier Santos
+position: Developer
 image_path: "/xavier.jpg"
 
 ---
