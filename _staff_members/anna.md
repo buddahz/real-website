@@ -1,5 +1,5 @@
 ---
 name: José Bonifácio
 position: Developer
-image_path: "xavier.jpg"
+image_path: "/JoseBonifacio.jpeg"
 ---
