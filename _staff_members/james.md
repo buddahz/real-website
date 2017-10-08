@@ -1,5 +1,5 @@
 ---
-name: Xavier Santos ok ok 
+name: Xavier Santos 
 
 position: Developer
 mail:xavier@ua.pt
