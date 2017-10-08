@@ -2,6 +2,6 @@
 name:
 position:
 mail:
-id:
+nmec:
 image_path:
 ---
