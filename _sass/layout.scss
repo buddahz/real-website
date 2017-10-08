@@ -13,6 +13,8 @@
 	max-width: 1000px;
 }
 
+
+
 header {
 	color: #fff;
 	padding: 20px 0;
@@ -114,13 +116,24 @@ section {
 	&.alternate {
 		background: #eee;
 	}
+	
+	&.team {
+	    	p {
+		    text-align: justify;
+            
+			font-size: 1rem;
+			color: #fff;
+			margin-top: -1675px;
+		}
+	    
+	}
 }
 
 .button {
 	padding: 13px 38px;
 	border-radius: 3px;
 	display: inline-block;
-	color: #fff;
+	color: $brand-color;
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
