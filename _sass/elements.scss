@@ -70,7 +70,8 @@ p, address, ul, ol {
 }
 
 li {
-  display: inline-block; 
+  list-style-type: none;
+ display: inline-block; 
   zoom: 1;
   *display: inline;
 
