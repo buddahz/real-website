@@ -15,22 +15,7 @@ title: AMS Project
                
              </div>
 
-            <script>
-            var slideIndex = 0;
-            carousel();
-
-            function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none"; 
-            }
-                slideIndex++;
-                if (slideIndex > x.length) {slideIndex = 1} 
-                x[slideIndex-1].style.display = "block"; 
-                setTimeout(carousel, 2000); // Change image every 2 seconds
-            }
-            </script>
+           
             
              <h5 class="editable">The Solution....</h5>
              <p class="editable">It was against this status quo that GreenPackage was born. Derived from the need for a decentralized and peer-to-peer delivery service in which the customer has control over all the steps of the delivery process using the live-tracking system, being able to feel always assured of the well-being of your order. This project also aims to have an ecological impact, offering an alternative to the use of motor vehicles, favoring the use of the bicycle.</br>
@@ -41,6 +26,37 @@ title: AMS Project
                  Provide geographic information about your order to customers
                  Create a platform that allows you to form a messenger network within zones of a metropolitan area, reducing the response time to each order
              </p>
+             
+              <div class="w3-content w3-display-container">
+                    <center>       <img class="mySlides2" src="rcourier1.jpg" style="width:50%" align="middle"  ></center>
+                    <center>       <img class="mySlides2" src="rcourier2.jpg" style="width:50%" align="middle"  ></center>
+                    <center>       <img class="mySlides2" src="rcourier3.jpg" style="width:50%" align="middle"  ></center>
+         
+               
+             </div>
+             
+              <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var y = document.getElementsByClassName("mySlides2");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+              y[i].style.display = "none"; 
+              
+            }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                if (slideIndex > y.length) {slideIndex = 1} 
+                y[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+
         
         
 	      </div>
