@@ -1,25 +1,26 @@
 .container,
 .text-container {
-   
+    
 	margin: 0 auto;
-	
+   position: relative;
 	padding: 0 20px;
-	
 }
 
 .text-container {
-    
+   
 	max-width: 1000px;
 }
 
 .container {
    
 	max-width: 1000px;
-	 
 	
 }
 
-
+.image_container
+{
+    position: absolute;
+}
 
 .container2,
 .text-container2 {
