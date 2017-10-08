@@ -3,9 +3,9 @@
     - name: Home
       link: /
     - name: MileStones
-      link: /portfolio/
+      link: /MileStones/
     - name: User Manual
-      link: /blog/
+      link: /UserManual/
     - name: Team
       link: /team/
   #  - name: Contact
