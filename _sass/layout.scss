@@ -13,6 +13,8 @@
 	max-width: 1000px;
 }
 
+
+
 header {
 	color: #fff;
 	padding: 20px 0;
@@ -64,6 +66,7 @@ section {
 		-moz-transform: skewY(-$section-rotation);
 		-ms-transform: skewY(-$section-rotation);
 		transform: skewY(-$section-rotation);
+		
 
 		> div {
 			-webkit-transform: skewY($section-rotation);
@@ -73,6 +76,17 @@ section {
 		}
 	}
 
+    &.team{
+        	
+		h2, p{
+		    margin-top: -1800px;
+		    color: #fff;
+		}
+		p{
+		
+		
+        
+    }
 	&.hero {
 		color: #ffffff;
 		background: $brand-color;
@@ -97,6 +111,8 @@ section {
 			font-size: 3rem;
 			margin-top: 100px;
 		}
+		
+	
 
 		p {
 		    text-align: justify;
@@ -114,6 +130,8 @@ section {
 	&.alternate {
 		background: #eee;
 	}
+	
+	
 }
 
 .button {
@@ -224,11 +242,12 @@ section {
 		right: 0;
 		background: rgba(0, 0, 0, 0.5);
 		padding: 20px;
+		color: #fff;
 	}
 
 	.name {
 		font-size: 1.3rem;
-		color: #fff;
+		color: $brand-color;
 	}
 
 	.position {
@@ -257,4 +276,6 @@ section {
 		color: #fefefe;
 		text-align: justify;
 	}
+	
+
 }
