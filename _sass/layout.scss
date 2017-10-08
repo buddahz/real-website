@@ -13,6 +13,11 @@
 	max-width: 1000px;
 }
 
+.container2{
+    
+    max-width: 200px;
+}
+
 header {
 	color: #fff;
 	padding: 20px 0;
@@ -64,7 +69,7 @@ section {
 		-moz-transform: skewY(-$section-rotation);
 		-ms-transform: skewY(-$section-rotation);
 		transform: skewY(-$section-rotation);
-		padding-top: 1800px;
+		
 
 		> div {
 			-webkit-transform: skewY($section-rotation);
@@ -258,4 +263,6 @@ section {
 		color: #fefefe;
 		text-align: justify;
 	}
+	
+
 }
