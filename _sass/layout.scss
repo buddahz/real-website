@@ -76,6 +76,14 @@ section {
 		}
 	}
 
+    &.team{
+        	
+		h2, p{
+		    margin-top: -1800px;
+		 
+		}
+        
+    }
 	&.hero {
 		color: #ffffff;
 		background: $brand-color;
@@ -101,10 +109,7 @@ section {
 			margin-top: 100px;
 		}
 		
-		h6, p{
-		    margin-top: -1800px;
-		    height: 50%;
-		}
+	
 
 		p {
 		    text-align: justify;
