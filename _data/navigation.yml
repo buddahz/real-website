@@ -1,9 +1,9 @@
 links:
 - name: MileStones
-  link: /portfolio/
+  link: /MileStones/
 - name: User Manual
-  link: /blog/
+  link: /UserManual/
 - name: Team
-  link: /about/
+  link: /team/
 #- name: Contact
 #  link: /contact/
