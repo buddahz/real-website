@@ -3,13 +3,13 @@ title: Team
 
 ---
 
-<section class="hero diagonal">
-
-	     <center>  	     <h2 class="editable">The Problem....</h2></center>  	
-		<p class="image-grid">
-			{% for member in site.staff_members %}
+<section class="diagonal patterned">
+	<div class="container halves">
+	   <center><h2 class="editable">The Problem....</h2></center>  	
+	    	<p class="image-grid">
+		    	{% for member in site.staff_members %}
 				<li>{% include staff-member.html member=member %}</li>
-			{% endfor %}
-		</p>
+	    		{% endfor %}
+	    	</p>
 	</div>
 </section>
