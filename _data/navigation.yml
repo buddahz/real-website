@@ -1,4 +1,6 @@
 links:
+- name: Home
+  link: /
 - name: MileStones
   link: /MileStones/
 - name: User Manual
