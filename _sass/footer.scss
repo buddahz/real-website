@@ -60,7 +60,7 @@ footer {
 
 		a {
 			svg {
-				fill: #999;
+			
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -74,7 +74,7 @@ footer {
 				text-decoration: none;
 
 				svg {
-					fill: $html-background-color;
+					fill: #999;
 				}
 			}
 		}
