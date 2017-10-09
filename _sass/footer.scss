@@ -8,7 +8,7 @@ footer {
 	padding: 100px 0 50px 0;
 	position: relative;
 	background: $html-background-color;
-	color: $html-background-color;
+	color: #fff;
 
 	&,
 	a {
@@ -74,7 +74,7 @@ footer {
 				text-decoration: none;
 
 				svg {
-					fill: #fff;
+					fill: $html-background-color;
 				}
 			}
 		}
