@@ -17,7 +17,7 @@ $desktop: "(min-width: 768px)";
 $section-rotation: 2deg;
 
  .mySlides {
-            
+           
             transform: skewY(-$section-rotation);
             }
 
@@ -27,7 +27,8 @@ $section-rotation: 2deg;
             }
             
 .myUCScratch{
-            
+            border-radius: 15px;
+          
             
             }
 
