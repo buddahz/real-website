@@ -107,14 +107,14 @@ section {
 			-ms-transform: skewY($section-rotation);
 			transform: skewY($section-rotation);
 		}
-		margin-top: 200px;
+
 	}
 
 	&.hero {
 		color: #ffffff;
 		background: $brand-color;
 		text-align: left;
-		margin-top: -210px;
+		margin-top: 120px;
 		padding-top: 2300px;
         
 		h2, p {
