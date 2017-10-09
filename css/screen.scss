@@ -1,5 +1,5 @@
 ---
---- 
+---
 
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
@@ -7,7 +7,7 @@ $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 $brand-color: #098455 ;
 $html-background-color: #252826;
 $secondary-brand-color: #FFC461;
-$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
@@ -17,13 +17,13 @@ $desktop: "(min-width: 768px)";
 $section-rotation: 2deg;
 
  .mySlides {
+           
              border-radius: 15px;
-            transform: skewY(-$section-rotation);
             }
 
  .mySlides2 {
              border-radius: 15px;
-            transform: skewY(-$section-rotation);
+            
             }
             
 .myUCScratch{
