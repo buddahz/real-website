@@ -1,3 +1,8 @@
+
+
+
+
+
 footer {
 	@extend section;
 	padding: 100px 0 50px 0;
@@ -20,6 +25,10 @@ footer {
 		display: flex;
 		flex-flow: wrap;
 		margin: -10px -10px 10px -10px;
+	}
+	
+	video{
+	     background: $999;
 	}
 
 	a {
