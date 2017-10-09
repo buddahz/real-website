@@ -14,20 +14,20 @@ $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
 
-$section-rotation: 2.5deg;
+$section-rotation: 2deg;
 
  .mySlides {
             
-          
+            transform: skewY(-$section-rotation);
             }
 
  .mySlides2 {
             
-          
+            transform: skewY(-$section-rotation);
             }
             
 .myUCScratch{
-            
+            transform: skewY(-$section-rotation);
             
             }
 
