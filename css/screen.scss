@@ -17,12 +17,12 @@ $desktop: "(min-width: 768px)";
 $section-rotation: 2deg;
 
  .mySlides {
-           
+             border-radius: 15px;
             transform: skewY(-$section-rotation);
             }
 
  .mySlides2 {
-            
+             border-radius: 15px;
             transform: skewY(-$section-rotation);
             }
             
