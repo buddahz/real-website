@@ -18,10 +18,12 @@ $section-rotation: 5deg;
 
  .mySlides {
             border-radius: 15px;
+            transform: skewY(-$section-rotation);
             }
 
  .mySlides2 {
             border-radius: 15px;
+            transform: skewY(-$section-rotation);
             }
             
 .myUCScratch{
