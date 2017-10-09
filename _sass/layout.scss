@@ -107,6 +107,7 @@ section {
 			-ms-transform: skewY($section-rotation);
 			transform: skewY($section-rotation);
 		}
+		margin-top: 200px;
 	}
 
 	&.hero {
