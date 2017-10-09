@@ -30,7 +30,7 @@ $section-rotation: 5deg;
 
 .video-container
             {
-                
+                transform: skewY(-$section-rotation);
             }
             
 
