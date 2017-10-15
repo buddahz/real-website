@@ -47,6 +47,26 @@
 }
 
 .container2 {
+	max-width: 100%;
+	
+    
+}
+
+
+.container3,
+.text-container2 {
+	margin: 0 auto;
+	position: relative;
+
+	margin-top: -2250px;
+}
+
+.text-container2 {
+	max-width: 100%;
+   	
+}
+
+.container2 {
 	max-width: 1000px;
 	display: flex;
     justify-content: space-between;
