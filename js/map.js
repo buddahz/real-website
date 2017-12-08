@@ -140,4 +140,10 @@ function init_map() {
 }
 google.maps.event.addDomListener(window, 'load', init_map);
 
+$(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      return false;
+    });
+  });
 
