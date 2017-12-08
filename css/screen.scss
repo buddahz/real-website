@@ -51,17 +51,13 @@ $section-rotation: 2deg;
     transform: skewY(-$section-rotation);
             }
             
- #siteWrapper:after {
-   content: "V";
-   position: absolute;
-   top: 500px;
-   width: 100%;
-   text-align: center;
-   z-index: 50;
-   display: block;
-   color: white;
- }
-
+ .apex-dn {
+    width:0px;
+    height:0px;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-top:12px solid #fff;
+}
 
 
 
