@@ -9,17 +9,29 @@ title: AMS Project
 	    <center>  	 <h2 class="editable">A Quick Look...</h2></center>  
 	    <div class="video-container" style="background-color: #252826; width: 50%; height: 25%; margin-bottom: -150px;">
             <center>
-            <video  autoplay loop muted playsinline width="100%" height= "50%">
+            <button onclick="playVid()" type="button">Play Video</button>
+            <button onclick="pauseVid()" type="button">Pause Video</button><br>
+            <video id = "myVideo" autoplay loop muted playsinline width="100%" height= "50%">
                  <source src="GreenProjectdemo.mp4" type="video/mp4" />
                 
              
             </video>  
-            
+            <script> 
+                var vid = document.getElementById("myVideo"); 
+
+            function playVid() { 
+                vid.play(); 
+            } 
+
+            function pauseVid() { 
+                vid.pause(); 
+            } 
+            </script> 
             </center>
         </div>
        
 	      
-      </br></br></br></br></br></br></br></br></br></br></br></br>
+      </br></br></br></br></br></br>
 	  <center>  	 <h5 class="editable">Context</h5></center>
 	  <div style="width: 50%; float:left; margin-top: 1500px">
                 <center>  	 <h2 class="editable">The Problem....</h2></center>  	
@@ -27,7 +39,7 @@ title: AMS Project
 	    	 
 	    	     <div class="video-container2" style="background-color: #252826; width: 75%; height: 75%; margin-bottom: -325px;">
           
-                    <video id="video1" autoplay loop muted playsinline width="100%">
+                    <video  autoplay loop muted playsinline width="100%">
                     <source src="polution.mp4" type="video/mp4" />
                     <source src="/video.webm" type="video/webm" />
                     <source src="/video.ogg" type="video/ogg" />
@@ -35,28 +47,7 @@ title: AMS Project
                     </video> 
             
                  </div></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-                <script> 
-var myVideo = document.getElementById("video1"); 
-
-function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
-    else 
-        myVideo.pause(); 
-} 
-
-function makeBig() { 
-    myVideo.width = 1250; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 420; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 560; 
-} 
-</script> 
+          
           
             
         </div>
