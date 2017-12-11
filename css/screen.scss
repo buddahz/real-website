@@ -85,7 +85,7 @@ $section-rotation: 2deg;
 
 .wrapper {
     text-align: center;
-    display: inline-block;
+    
 }
 
 
@@ -272,6 +272,10 @@ ul li {
   to {opacity: 1}
 }
 
+.dropdown {text-align:center;}
+.button, .dropdown-menu {margin:10px auto}
+.dropdown-menu {width:200px; left:50%; margin-left:-100px;}
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -289,9 +293,8 @@ ul li {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    
     display: none;
-    position: center;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
