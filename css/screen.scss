@@ -289,7 +289,8 @@ ul li {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
+    text-align: center;
+    display: inline-block;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
