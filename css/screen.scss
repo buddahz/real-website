@@ -186,6 +186,8 @@ ul li {
   border-radius: 15px;
 }
 
+.slide1 { float: left; width: 250px; clear: left; margin-right: 15px; }
+.slide2 { float: right; width: 400px; clear: right; margin-left: 15px; }
 /* Hide the images by default */
 .mySlides {
     display: none;
