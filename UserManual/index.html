@@ -170,7 +170,7 @@ heading: User Manual
 var slideIndex = 1;
 var slideIndex2 = 1;
 showSlides(slideIndex);
-showSlides(slideIndex2)
+showSlides2(slideIndex2)
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -205,7 +205,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-unction showSlides(n) {
+function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides2");
   var dots = document.getElementsByClassName("dot");
