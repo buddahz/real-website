@@ -167,7 +167,7 @@ heading: User Manual
 </section>
 
  <script>
-    var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -180,17 +180,6 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
- var slideIndex2 = 1;
-showSlides2(slideIndex2);
-
-function plusSlides2(n) {
-  showSlides2(slideIndex2 += n);
-}
-
-// Thumbnail image controls
-function currentSlide2(n) {
-  showSlides2(slideIndex2 = n);
-}
 
 function showSlides(n) {
   var i;
@@ -206,6 +195,23 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+
+<script>
+ var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
 }
 
 function showSlides2(n)
@@ -224,5 +230,4 @@ function showSlides2(n)
   dots[slideIndex-1].className += " active2";
 }
 </script>
-
 
