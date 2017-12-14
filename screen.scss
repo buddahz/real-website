@@ -1,0 +1,63 @@
+---
+---
+
+$pattern: "{{ site.baseurl }}/images/pattern.png";
+$screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
+
+$brand-color: #098455 ;
+$html-background-color: #252826;
+$secondary-brand-color: #FFC461;
+
+
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+$desktop: "(min-width: 768px)";
+
+$section-rotation: 2deg;
+
+ .mySlides {
+           
+             border-radius: 15px;
+            }
+
+ .mySlides2 {
+             border-radius: 15px;
+            
+            }
+
+.mySlides3 {
+             border-radius: 15px;
+            
+            }
+            
+.myUCScratch{
+            border-radius: 15px;
+          
+            
+            }
+
+.video-container
+            {
+            transform: skewY(-$section-rotation);
+            }
+.video-container2
+            {
+                 margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border: 1px solid #009;
+    transform: skewY(-$section-rotation);
+            }
+            
+
+
+@import "elements";
+@import "layout";
+@import "contact";
+@import "blog";
+@import "forms";
+@import "navigation";
+@import "footer";
+@import "cloudcannon";
