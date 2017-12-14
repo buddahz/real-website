@@ -39,7 +39,7 @@ $section-rotation: 2deg;
 
 .video-container
             {
-            transform: skewY(-$section-rotation);
+            #transform: skewY(-$section-rotation);
             }
 .video-container2
             {
@@ -48,7 +48,7 @@ $section-rotation: 2deg;
     margin-bottom: 0px;
     margin-left: auto;
     border: 1px solid #009;
-    transform: skewY(-$section-rotation);
+    #transform: skewY(-$section-rotation);
             }
             
 
