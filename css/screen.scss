@@ -16,12 +16,12 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 2deg;
 
- .mySlides {
+.mySlides {
            
              border-radius: 15px;
             }
 
- .mySlides2 {
+.mySlides2 {
              border-radius: 15px;
             
             }
@@ -200,6 +200,11 @@ ul li {
     border-radius: 15px;
 }
 
+.mySlides3 {
+    display: none;
+    border-radius: 15px;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -258,7 +263,7 @@ ul li {
 
 
 /* The dots/bullets/indicators */
-.dot, .dot2 {
+.dot, .dot2, .dot3 {
   cursor:pointer;
   height: 15px;
   width: 15px;
