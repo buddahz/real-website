@@ -138,7 +138,7 @@ header {
 section {
 	padding: 130px 0;
 	background: #252826;
-	margin-top: -50px;
+	margin-top: -2px;
 
 	&.diagonal {
 		-webkit-transform: skewY(-$section-rotation);
@@ -159,7 +159,7 @@ section {
 		background: $brand-color;
 		text-align: left;
 		margin-top: 120px;
-		padding-top: 5000px;
+		padding-top: 2300px;
         
 		h2, p {
 			max-width: 90%;
