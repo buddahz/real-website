@@ -51,6 +51,10 @@ $section-rotation: 2deg;
     #transform: skewY(-$section-rotation);
             }
             
+li {
+  color: white; /* bullet color */
+}
+            
 
 
 @import "elements";
