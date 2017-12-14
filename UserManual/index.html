@@ -162,6 +162,66 @@ heading: User Manual
     <div style="text-align:center;">
 	    	<center>  	 <h6 class="editable">Note: Click Arrow/Circle Buttons to navigate over CourierApp Mockup </h6></center>
     </div>
+    
+    </br></br></br></br></br></br>
+	<a id="top2"></a>
+	<center><h2 class="editable">Manager Browser</h2></center>
+	
+	<div class="slideshow-container" style="border-radius: 15px">
+    
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides3 fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="Manager/1.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+
+    <div class="mySlides3 fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="Manager/2.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+    
+    <div class="mySlides3 fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="Manager/3.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+    
+    <div class="mySlides3 fade">
+    <div class="numbertext">4 / 7</div>
+    <img src="Manager/4.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+    
+    <div class="mySlides3 fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="Manager/5.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+    
+    <div class="mySlides3 fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="Manager/6.jpeg" style="width:100%; border-radius: 15px">
+    </div>
+    
+    
+
+    
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+    <span class="dot3" onclick="currentSlide3(1)"></span> 
+    <span class="dot3" onclick="currentSlide3(2)"></span> 
+    <span class="dot3" onclick="currentSlide3(3)"></span> 
+    <span class="dot3" onclick="currentSlide3(4)"></span> 
+    <span class="dot3" onclick="currentSlide3(5)"></span> 
+    <span class="dot3" onclick="currentSlide3(6)"></span> 
+    <span class="dot3" onclick="currentSlide3(7)"></span> 
+    </div>
+    </br></br>
+    <div style="text-align:center;">
+	    	<center>  	 <h6 class="editable">Note: Click Arrow/Circle Buttons to navigate over ManagerBrowser Mockup </h6></center>
+    </div>
 	
 	
 </section>
@@ -226,6 +286,35 @@ function showSlides2(n) {
   }
   slides2[slideIndex2-1].style.display = "block"; 
   dots2[slideIndex2-1].className += " active";
+}
+
+</script>
+
+<script>
+var slideIndex3 = 1;
+showSlides3(slideIndex3)
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+
+function showSlides3(n) {
+  var i;
+  var slides3 = document.getElementsByClassName("mySlides3");
+  var dots3 = document.getElementsByClassName("dot3");
+  if (n > slides3.length) {slideIndex3 = 1} 
+  if (n < 1) {slideIndex3 = slides3.length}
+  for (i = 0; i < slides3.length; i++) {
+      slides3[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots3.length; i++) {
+      dots3[i].className = dots3[i].className.replace(" active", "");
+  }
+  slides3[slideIndex3-1].style.display = "block"; 
+  dots3[slideIndex3-1].className += " active";
 }
 
 </script>
