@@ -18,7 +18,6 @@
 .container {
    
 	max-width: 100%;
-	margin-top: 0;
 	
 }
 
@@ -60,7 +59,7 @@
 	margin: 0 auto;
 	position: relative;
 
-	margin-top: -8400px;
+	margin-top: -2250px;
 }
 
 .text-container3 {
@@ -118,9 +117,9 @@ header {
 }
 
 section {
-	padding: 330px 0;
+	padding: 130px 0;
 	background: #252826;
-	margin-top: -618px;
+	margin-top: -2px;
 
 	&.diagonal {
 		-webkit-transform: skewY(-$section-rotation);
@@ -141,7 +140,7 @@ section {
 		background: $brand-color;
 		text-align: left;
 		margin-top: 120px;
-		padding-top: 8000px;
+		padding-top: 2300px;
         
 		h2, p {
 			max-width: 90%;
@@ -149,7 +148,7 @@ section {
 
 		h2 {
 			font-size: 3rem;
-			margin-top: -8400px;
+			margin-top: -2150px;
 		}
 		
 	
@@ -189,74 +188,6 @@ section {
 		}
 	    
 	}
-	
-	&.diagonal2 {
-		-webkit-transform: skewY(-$section-rotation);
-		-moz-transform: skewY(-$section-rotation);
-		-ms-transform: skewY(-$section-rotation);
-		transform: skewY(-$section-rotation);
-
-		> div {
-			-webkit-transform: skewY($section-rotation);
-			-moz-transform: skewY($section-rotation);
-			-ms-transform: skewY($section-rotation);
-			transform: skewY($section-rotation);
-		}
-	}
-
-	&.hero2 {
-		color: #ffffff;
-		background: $brand-color;
-		text-align: left;
-		margin-top: 120px;
-		padding-top: 2000px;
-        
-		h2, p {
-			max-width: 90%;
-		}
-
-		h2 {
-			font-size: 3rem;
-			margin-top: -1900px;
-		}
-		
-	
-		
-		h5, p {
-			max-width: 90%;
-		}
-
-		h5 {
-			font-size: 3rem;
-			margin-top: 100px;
-		}
-
-		p {
-		    text-align: justify;
-            
-			font-size: 1rem;
-			color: #fff;
-		}
-
-		a:not(.button) {
-			color: #ffffff;
-			font-style: italic;
-		}
-	}
-
-	&.alternate2 {
-		background: #eee;
-	}
-	
-	&.team2 {
-	    	p {
-		    text-align: justify;
-			font-size: 1rem;
-			color: #fff;
-			margin-top: -2250px;
-		}
-	    
-	}
 }
 
 
@@ -269,7 +200,7 @@ section {
 	cursor: pointer;
 	margin: 20px 0 0 0;
 	border: 1px solid #fff;
-	background: #49826c;
+	background: #fff;
 	text-decoration: none !important;
 
 	&:hover {
@@ -286,7 +217,7 @@ section {
 }
 
 .halves {
-	display: inline-flex;
+	display: flex;
 	flex-flow: wrap;
 	align-items: center;
 
