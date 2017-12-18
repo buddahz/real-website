@@ -33,6 +33,18 @@
     position: absolute;
 }
 
+
+.container2 {
+  padding: 0 16px;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*
 .container2,
 .text-container2 {
 	margin: 0 auto;
@@ -51,7 +63,7 @@
 	display: flex;
     justify-content: space-between;
     
-}
+}*/
 
 
 .container3,
